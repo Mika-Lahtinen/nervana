@@ -9,9 +9,11 @@ A simple, swift, lightweight configuration for Neovim written in Lua.
 > For *nix system:
 ```shell
 git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git\
-~/.config/nvim```
+~/.config/nvim
+```
 > For Microsoft Windows:
 ```shell 
-git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git "$env:LOCALAPPDATA\nvim"```
+git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git "$env:LOCALAPPDATA\nvim"
+```
 2. Open neovim, input ":PackerSync" and run it.
 3. Enjoy.
