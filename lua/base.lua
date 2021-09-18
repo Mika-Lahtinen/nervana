@@ -38,7 +38,7 @@ set.ignorecase = true
 set.background = "dark"
 
 vim.cmd [[
-    colorscheme falcon
+    colorscheme desert
 
     filetype indent on
     syntax enable
