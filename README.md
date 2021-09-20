@@ -27,7 +27,7 @@ git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git "$env:LOCALAPPD
 
 2. Open neovim, input `":PackerSync"` and run it.
 
-3. All done. For personal configure, just edit `extra_config.lua`, or add your personal plugins in `extra_plugins.lua`.
+3. All done. For personal configure, just edit `extra_config.lua`, or add your personal plugins in `plugins.lua`.
 
 ## Components
 
@@ -38,6 +38,7 @@ git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git "$env:LOCALAPPD
 - `plugins.lua`
   
   Default plugins to install in your Neovim.
+  To add your plugins, follow the insruction of `Packer.nvim`.
 
 - `plugin.settings.lua`
   
@@ -46,7 +47,3 @@ git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git "$env:LOCALAPPD
 - `extra_config.lua`
   
   Personal configurations.
-
-- `extra_plugins.lua`
-  
-  Personal plugins.
