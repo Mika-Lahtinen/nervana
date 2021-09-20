@@ -38,7 +38,7 @@ git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git "$env:LOCALAPPD
 - `plugins.lua`
   
   Default plugins to install in your Neovim.
-  To add your plugins, follow the insruction of `Packer.nvim`.
+  To add your plugins, please follow the instruction of `Packer.nvim`.
 
 - `plugin.settings.lua`
   
