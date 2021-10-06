@@ -63,5 +63,6 @@ return require('packer').startup(function()
     --Color schemes
     use 'fxn/vim-monochrome'
     use 'fenetikm/falcon'
+    use 'rafi/awesome-vim-colorschemes'
 
 end)
