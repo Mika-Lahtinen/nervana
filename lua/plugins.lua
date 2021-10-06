@@ -57,6 +57,7 @@ return require('packer').startup(function()
     use 'Chiel92/vim-autoformat'
     -- use 'dense-analysis/ale'
     use 'jiangmiao/auto-pairs'
+    use 'sbdchd/neoformat'
 
 
     --Color schemes
