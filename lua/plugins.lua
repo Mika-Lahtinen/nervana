@@ -28,7 +28,14 @@ return require('packer').startup(function()
     }
     use 'folke/lua-dev.nvim'
 
-    use {'neoclide/coc.nvim', branch= 'release'}
+    -- Built-in LSP
+    use 'neovim/nvim-lspconfig'
+
+    -- [[ 
+    --      Coc.nvim, alternative for Neovim's built-in LSP. 
+    --      Friendly to the beginner of Vim/Neovim, heavier than built-in LSP.
+    -- ]] 
+    -- use {'neoclide/coc.nvim', branch= 'release'}
     
     use 'rust-lang/rust.vim'
     
@@ -59,6 +66,8 @@ return require('packer').startup(function()
     use 'jiangmiao/auto-pairs'
     use 'sbdchd/neoformat'
 
+    -- Asynchronous terminal emulator 
+    use 'akinsho/toggleterm.nvim'
 
     --Color schemes
     use 'fxn/vim-monochrome'
