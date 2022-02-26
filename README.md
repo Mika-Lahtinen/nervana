@@ -6,7 +6,7 @@ A simple, swift, lightweight configuration for Neovim written in Lua.
 
 - Neovim version: 0.5 and newer.
 - `Packer.nvim` is installed.
-- `Node.js` is installed.
+- `Node.js` is installed (Only if you choose Coc.nvim as your LSP client).
 
 ## How to use it
 
