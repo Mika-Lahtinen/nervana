@@ -23,6 +23,8 @@ set.ruler = true
 set.cindent = true
 set.wildmenu = true
 set.smartindent = true
+set.syntax = "on"
+set.syntax = "enable"
 
 -- Caches
 set.autoread = true
