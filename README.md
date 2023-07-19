@@ -34,6 +34,10 @@ git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git "$env:LOCALAPPD
   
   The basic configurations for Neovim.
 
+- `key_binding.lua`
+  
+  Key bindings for your Neovim. 
+
 - `plugins.lua`
   
   Default plugins to install in your Neovim.
