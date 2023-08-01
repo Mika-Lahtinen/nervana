@@ -10,23 +10,32 @@ A simple, swift, lightweight configuration for Neovim written in Lua.
 ## How to use it
 
 1. Clone the repository to the path configuring for Neovim.
+   
+   > For *nix system:
+   ```shell
+   git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git\
+   ~/.config/nvim
+   ```
 
-> For *nix system:
+   > For Microsoft Windows:
+   ```shell
+   git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git "$env:LOCALAPPDATA\nvim"
+   ```
 
-```shell
-git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git\
-~/.config/nvim
-```
+2. Install [packer.nvim](https://github.com/wbthomason/packer.nvim) .
+   > For *nix system:
+   ```shell
+   git clone --depth=1 https://github.com/wbthomason/packer.nvim\
+   ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+   ```
 
-> For Microsoft Windows:
+   > For Microsoft Windows:
+   ```shell
+   git clone --depth=1 https://github.com/wbthomason/packer.nvim "$env:LOCALAPPDATA\nvim-data\site\pack\packer\start\packer.nvim"
+   ```
 
-```shell
-git clone --depth=1 https://github.com/Mika-Lahtinen/nervana.git "$env:LOCALAPPDATA\nvim"
-```
-
-2. Open neovim, input `":Lazy"` and run it.
-
-3. All done. For personal configure, just edit `extra_config.lua`, or add your personal plugins in `plugins.lua`.
+3. Open Neovim, input `:PackInstall` to install plugins.
+4. All done. For personal configure, just edit `extra_config.lua`, or add your personal plugins in `plugins.lua`.
 
 ## Components
 

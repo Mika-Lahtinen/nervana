@@ -11,6 +11,8 @@ set.linebreak = true
 set.mouse = "a"
 set.laststatus = 2
 set.ruler = true
+set.splitbelow = true
+set.splitright = true
 
 -- Coding
 set.encoding = "utf-8"
