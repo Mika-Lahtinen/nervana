@@ -42,6 +42,13 @@ return require('packer').startup({
     use "hrsh7th/cmp-cmdline"
     use "hrsh7th/nvim-cmp"
 
+    use {
+      "hrsh7th/vim-vsnip",
+      "hrsh7th/vim-vsnip-integ",
+      "rafamadriz/friendly-snippets",
+      "hrsh7th/cmp-vsnip",
+    }
+
     if packer_bootstrap then
     	require('packer').sync()
     end
