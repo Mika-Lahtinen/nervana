@@ -32,8 +32,8 @@ set.syntax = "enable"
 set.autoread = true
 set.confirm = true
 set.autowrite = true
-set.noswapfile = true
-set.nobackup = true
+set.swapfile = false
+set.backup = false
 
 -- Search
 set.hlsearch = true
