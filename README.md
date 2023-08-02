@@ -4,7 +4,7 @@ A simple, swift, lightweight configuration for Neovim written in Lua.
 
 ## Prerequisite
 
-- Neovim version: 0.5 and newer.
+- Neovim version: 0.5 and newer. Caution: If you want to use Nvim-orgmode, please make sure your neovim version >= 0.8 .
 - `Node.js` is installed (Only if you choose Coc.nvim as your LSP client).
 
 ## How to use it
