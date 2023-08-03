@@ -43,13 +43,6 @@ return require('packer').startup({
 
         use {"hrsh7th/vim-vsnip", "hrsh7th/vim-vsnip-integ", "rafamadriz/friendly-snippets", "hrsh7th/cmp-vsnip"}
 
-        use {
-            'nvim-orgmode/orgmode',
-            config = function()
-                require('orgmode').setup {}
-            end
-        }
-
         if packer_bootstrap then
             require('packer').sync()
         end
