@@ -13,6 +13,7 @@ set.laststatus = 2
 set.ruler = true
 set.splitbelow = true
 set.splitright = true
+set.compatible = false
 
 -- Coding
 set.encoding = "utf-8"
@@ -34,6 +35,7 @@ set.confirm = true
 set.autowrite = true
 set.swapfile = false
 set.backup = false
+set.clipboard = "unnamedplus"
 
 -- Search
 set.hlsearch = true
@@ -44,9 +46,8 @@ set.ignorecase = true
 set.background = "dark"
 
 vim.cmd [[
-    colorscheme desert
+    colorscheme evening
 
-    filetype indent on
     syntax enable
     filetype plugin indent on
     syntax on
