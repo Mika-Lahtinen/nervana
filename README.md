@@ -52,7 +52,7 @@ A simple, swift, lightweight configuration for Neovim written in Lua.
   Default plugins to install in your Neovim.
   To add your plugins, please follow the instruction of `Lazy.nvim`.
 
-- `plugin.settings.lua`
+- `plugin_settings.lua`
   
   Some settings for default plugins.
 
