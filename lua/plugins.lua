@@ -19,8 +19,4 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Install plugins by using Lazy.nvim
-require("lazy").setup({
-    "folke/which-key.nvim",
-    { "folke/neoconf.nvim", cmd = "Neoconf" },
-    "folke/neodev.nvim",
-})
+require("lazy").setup({{import = "plugins"}})
