@@ -19,4 +19,8 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 -- Install plugins by using Lazy.nvim
-require("lazy").setup({{import = "plugins"}})
+require("lazy").setup({
+    spec = {
+      {import = "plugins"}
+    },
+  })
