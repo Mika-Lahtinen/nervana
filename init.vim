@@ -1,4 +1,4 @@
-lua require('base')
+lua require('origin_config')
 lua require('key_binding')
 lua require('package_manage')
 lua require('plugin_settings')
